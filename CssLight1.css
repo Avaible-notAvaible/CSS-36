@@ -63,7 +63,7 @@
   background-color: #d60000;
   border-color: #000000;
   text-align: center;
-  transition: border-radius 5s;
+  transition: border-radius 2s;
 }
 .alertbox:hover {
   border-radius: 15px; 
@@ -84,10 +84,10 @@
 background-color: #d60000 ;
 }
 .bg-prim {
-background-color: #38ff74 ;
+background-color: #009e2f ;
 }
 .bg-second {
-background-color: #81b6df;
+background-color: #008efa;
 }
 .bg-gr {
 background-color: #c1c2c3 ;
