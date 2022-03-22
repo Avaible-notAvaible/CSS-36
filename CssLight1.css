@@ -51,8 +51,23 @@
   width: 150px;
   padding: 1px !important;
 }
-
-
+.button-pill {
+  border-radius: 90px;
+}
+.button-circ {
+  border-radius: 100px;
+  width: 80px;
+}
+.alertbox {
+  border-style: double;
+  background-color: #d60000;
+  border-color: #000000;
+  text-align: center;
+  transition: border-radius 5s;
+}
+.alertbox:hover {
+  border-radius: 15px; 
+}
 
 
 
