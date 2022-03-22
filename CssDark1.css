@@ -1,0 +1,106 @@
+
+body {
+  background-color: #383333 ;
+  
+}
+.button-ripple {
+  position: relative;
+  border: solid;
+  font-size: 25px;
+  color: #000000;
+  padding: 5px;
+  width: 200px;
+  text-align: center;
+  transition-duration: 0.3s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.button-ripple:after {
+  content: " ";
+  background: #bababa;
+  display: block;
+  position: absolute;
+  padding-top: 1100%;
+  padding-left: 1100%;
+  margin: -120%;
+  opacity: 0;
+  transition: all 0.6s
+}
+
+.button-ripple:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+
+.button-36 {
+  position: relative;
+  border: solid;
+  font-size: 20px;
+  color: #000000;
+  padding: 5px;
+  width: 200px;
+  text-align: center;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  
+}
+.button-sml {
+  font-size: 19px;
+  width: 150px;
+  padding: 1px !important;
+}
+.button-pill {
+  border-radius: 90px;
+}
+.button-circ {
+  border-radius: 100px;
+  width: 80px;
+}
+.alertbox {
+  border-style: double;
+  background-color: #d60000;
+  border-color: #000000;
+  text-align: center;
+  transition: border-radius 2s;
+}
+.alertbox:hover {
+  border-radius: 15px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.bg-alert {
+background-color: #d60000 ;
+}
+.bg-prim {
+background-color: #009e2f ;
+}
+.bg-second {
+background-color: #008efa;
+}
+.bg-gr {
+background-color: #c1c2c3 ;
+}
+.bg-dark {
+background-color: #52575b ;
+}
+.bg-warn {
+background-color: #c8ff00 ;
+}
+.bg-ter {
+background-color: #7d1ae0 ;
+}
